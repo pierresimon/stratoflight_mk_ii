@@ -1,0 +1,14 @@
+time      ;ext. °C;int. °C;pressure;Altitude ;humid.;ozone ;GForcX;GForcY;GForcZ;GyroX ;GyroY ;GyroZ ;GPS Latitude ;GPS Longitude
+0000000000;-999.99;-999.99;-9999.68;-99999.99;100.00;999999;-32768;-32768;-32768;-32768;-32768;-32768;1234567890.00;1234567890.00
+
+
+
+
+
+Beep-Sequenz:
+=============
+
+1. Testmode  : 3 x kurz -> kein Ton mehr
+   Flightmode: 5 x kurz -> nach 10 Sek. 4 x kurz -> die ersten 60 Sek. vor Messung 1 x kurz -> nach Messung 2 x kurz
+	             Alarm-Ton (4 x Doppelton im Abstand von 1 Sekunde) : SD-Karte nicht ok
+   
