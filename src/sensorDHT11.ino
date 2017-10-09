@@ -3,9 +3,7 @@
     Projekt "Stratoflight MK2"
     2017 by Pierre Simon, Frederik Simon
 */
-
 /*-----------------------------------------------------------------------*/
-
 
 #include <dht11.h>
 dht11 DHT11;
@@ -23,6 +21,7 @@ boolean setupSensorDHT11()
 
 // delta max = 0.6544 wrt dewPoint()
 // reference: http://en.wikipedia.org/wiki/Dew_point
+/*
 double dewPoint(double celsius, double humidity)
 {
   double a = 17.271;
@@ -31,7 +30,7 @@ double dewPoint(double celsius, double humidity)
   double Td = (b * temp) / (a - temp);
   return Td;
 }
-
+*/
 /*-----------------------------------------------------------------------*/
 
 void getDHT11Data(String &retVal)
